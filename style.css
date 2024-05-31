@@ -1,0 +1,71 @@
+img.small{
+    color: green;
+}
+p.grey{
+    color: grey;
+    font-family: JoesfinSans ;
+    font-size: 2.25rem;
+   color: rgb(15 23 42);
+}
+p.green{
+    color: #34D399;
+    font-family: JoesfinSans ;
+}
+img.lionel{
+ width:384px ;
+ height:64px ;
+ border-radius: 0.5rem;
+ 
+}
+h1{
+    font-family: JoesfinSans;
+    margin-top: 0px;
+}
+div.top{
+    display: flex;
+    justify-content: space-around;
+}
+p.black{
+    color: black;
+    font-family: JoesfinSans ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+div.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-direction: column;
+}
+div.left{
+    display: flex;
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(JosefinSans-VariableFont_wght.ttf);
+  }
+  p.ian{
+    color: grey;
+  }
+img.small{
+    width: 40px;
+    border-radius: 25px;
+    height: 40px;
+}
+@media screen and (max-width: 480px){
+
+div.left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p.grey{
+    font-size: medium;
+}
+p.green{
+    font-size: small;
+}
+
+}
+    
